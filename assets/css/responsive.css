@@ -1,0 +1,57 @@
+/* moblie */
+@media (max-width: 740px) {
+  #nav {
+    display: block;
+  }
+  #nav > li {
+    display: block;
+  }
+  #nav > li:first-child {
+    display: inline-block;
+  }
+  #nav .subnav {
+    padding-left: 34px;
+    position: initial;
+    background: #333;
+  }
+
+  #nav .subnav li a {
+    padding: 5 52px;
+    color: #fff;
+  }
+  #nav .subnav li a:hover {
+    padding-right: 10px;
+  }
+  #header {
+    overflow: hidden;
+  }
+  #header .mobile-menu {
+    display: block;
+  }
+  #header .search-btn {
+    display: none;
+  }
+  .place-item,
+  #content .member-item {
+    width: 100%;
+  }
+  #content .member-item {
+    margin-top: 30px;
+    width: 100%;
+  }
+  #content .member-img {
+    width: 60%;
+  }
+  .contact-info {
+    margin-bottom: 16px;
+  }
+  .col {
+    float: initial;
+  }
+  .col-half {
+    width: 100%;
+  }
+  .btn {
+    margin-right: 8px;
+  }
+}
